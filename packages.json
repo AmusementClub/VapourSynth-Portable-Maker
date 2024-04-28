@@ -12,10 +12,10 @@
         "libhash": "23DA41E02120E0B38863FC48D256CD5D45E8E060F48A698AA0F2DD1333C97668C8A568F508D36AE660625713FBA9B41F81952B2B6D60AE0298C9968D787ABEB0"
     },
     "vapoursynth": {
-        "name": "VS-C-x64-R57.A7.zip",
+        "name": "VS-C-x64-R57.A9.zip",
         "version": 9999,
-        "url": "https://github.com/AmusementClub/vapoursynth-classic/releases/download/R57.A7/release-x64.zip",
-        "hash": "2933059FDE64222D856C27BEA5EB8DACFF6D60BAF5DD1DD401E178883AB6F344A7CF7D64AB898C8240E0402A9395FD7964BE851D6CE5225BE132DF030B896AC8"
+        "url": "https://github.com/AmusementClub/vapoursynth-classic/releases/download/R57.A9/release-x64.zip",
+        "hash": "E0D6266F52E127A81AD2DDDDBB3D16429AA8296D1D5CE40A3C085E114B9CCD408D63EEABF1D98F6D3E00CD591F8A8FA3DE068B34D3F63C0377D0450BAD22DA0D"
     },
     "vseditor": {
         "name": "vsedit-windows-x64.r19-mod-5-AC2.7z",
