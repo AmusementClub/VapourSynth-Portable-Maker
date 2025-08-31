@@ -12,10 +12,10 @@
         "libhash": "23DA41E02120E0B38863FC48D256CD5D45E8E060F48A698AA0F2DD1333C97668C8A568F508D36AE660625713FBA9B41F81952B2B6D60AE0298C9968D787ABEB0"
     },
     "vapoursynth": {
-        "name": "VS-C-x64-R57.A10.zip",
+        "name": "VS-C-x64-R57.A11.zip",
         "version": 9999,
-        "url": "https://github.com/AmusementClub/vapoursynth-classic/releases/download/R57.A10/release-x64.zip",
-        "hash": "8C54FC9411AAA94CC597855F64601D7329B975B3E387DD7E4D9B4277C84DD030D7D26315953C3DC2FAD6A7226DC6FBB9D18AA1EB83C1013A723AE802FD9EAD68"
+        "url": "https://github.com/AmusementClub/vapoursynth-classic/releases/download/R57.A11/release-x64.zip",
+        "hash": "8BABA2A166C5DCFE3914D43BC479268E01277751F05A17BFC4E80060DFB1BC7DBA6AC0A8CAC12AC5FA8FF545EA408E3BA974E167748A2EB600ADA9E8F42A8325"
     },
     "vseditor": {
         "name": "vsedit-windows-x64.r19-mod-5-AC2.7z",
@@ -28,10 +28,10 @@
         "hash": "E4925631D4A7C356203AA7BC0B772F0D844AC42D88FA779FB33CA9E7CF7B34A2E22EE9FCE96D4678EADE9D749DA9AEF647E9F61FE00E9B361F6D31E2A0414139"
     },
     "vspreview": {
-        "name": "vapoursynth-preview-R57.A5.zip",
-        "url": "https://github.com/AmusementClub/vapoursynth-preview/archive/refs/tags/R57.A5.zip",
-        "branch": "R57.A5",
-        "hash": "07ac2680bdad408d19192556109d61e01bd6047242f84e9e8ec0b2edb5951e66b44a9c8298894254b8c488267f19336934a2c9f1816f0983e06e1d82b693e0d2"
+        "name": "vapoursynth-preview-R57.A6.zip",
+        "url": "https://github.com/AmusementClub/vapoursynth-preview/archive/refs/tags/R57.A6.zip",
+        "branch": "R57.A6",
+        "hash": "DD5D2F5C5E7EA1C2D20AE975769B9AB8BBA1B5DF668DEAF0F973234E9E7BD9C3BBDCB190693C448C8029DF8A81E690E801352D60D3208C210C0AE5EF14054D58"
     },
     "lexpr": {
         "name": "akarin-release-lexpr-amd64-v0.96g3.7z",
