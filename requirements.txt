@@ -2,6 +2,7 @@
 matplotlib
 # vs-mlrt
 onnx
+onnxconverter-common
 # https://github.com/tastysugar/AssFontSubset
 fonttools
 # bsrt2ass
