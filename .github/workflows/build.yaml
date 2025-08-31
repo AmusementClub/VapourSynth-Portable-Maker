@@ -11,9 +11,9 @@ on:
 
 jobs:
   build:
-    runs-on: windows-2019
+    runs-on: windows-2025
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Build portable
         shell: pwsh
@@ -22,21 +22,21 @@ jobs:
       - name: Compress release
         shell: cmd
         run:
-          7z a -t7z -mx=3 release.7z VapourSynth
+          7z a -t7z -mx=3 vapoursynth_portable_release_${{ github.event.inputs.tag }}.7z VapourSynth
 
       - name: Upload release
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: release
           path: |
-            release.7z
+            vapoursynth_portable_release_${{ github.event.inputs.tag }}.7z
 
       - name: Release
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.tag != ''
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.event.inputs.tag }}
-          files: release.7z
+          files: vapoursynth_portable_release_${{ github.event.inputs.tag }}.7z
           fail_on_unmatched_files: true
           generate_release_notes: false
           prerelease: true
