@@ -97,6 +97,7 @@ Set-Content -Path $Requirements (Get-Content -Path $Requirements | Select-String
 .\VapourSynth\python.exe -m pip install -r $Requirements --no-warn-script-location
 .\VapourSynth\python.exe -m pip install -r .\requirements.txt --no-warn-script-location
 .\VapourSynth\python.exe -m pip install setuptools wheel --no-warn-script-location
+.\VapourSynth\python.exe -m pip install https://github.com/SAPikachu/igstools/archive/master.zip --no-warn-script-location
 .\VapourSynth\python.exe -m pip install .\downloads\vsstubs\VapourSynth-Plugins-Stub-Generator-$($Packages.vsstubs.branch)\vsstubs\ --no-warn-script-location --no-use-pep517
 .\VapourSynth\python.exe -m vsstubs install
 
@@ -130,6 +131,7 @@ Remove-Item -Path .\VapourSynth\vapoursynth.*.pyd
 Remove-Item -Path .\VapourSynth\README, .\VapourSynth\CHANGELOG, .\VapourSynth\LICENSE
 Remove-Item -Path .\VapourSynth\vsedit.ico, .\VapourSynth\vsedit.svg
 Remove-Item -Path .\VapourSynth\share -Recurse  # share\man\man1\ttx.1
+Remove-Item -Path .\pylib -Recurse -Force
 
 # Prepare VapourSynth-9999.dist-info
 $DistinfoDir = ".\VapourSynth\Lib\site-packages\VapourSynth-9999.dist-info"

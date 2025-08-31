@@ -7,3 +7,9 @@ onnxconverter-common
 fonttools
 # bsrt2ass
 requests
+# https://github.com/SAPikachu/igstools
+pypng
+# diffaudio
+scipy
+ffmpeg-python
+pymediainfo
