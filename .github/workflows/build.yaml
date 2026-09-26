@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: windows-2025
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Build portable
         shell: pwsh
@@ -25,7 +25,7 @@ jobs:
           7z a -t7z -mx=3 vapoursynth_portable_release_${{ github.event.inputs.tag }}.7z VapourSynth
 
       - name: Upload release
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: release
           path: |
@@ -33,7 +33,7 @@ jobs:
 
       - name: Release
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.tag != ''
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ github.event.inputs.tag }}
           files: vapoursynth_portable_release_${{ github.event.inputs.tag }}.7z
