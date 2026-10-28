@@ -106,7 +106,7 @@ if ( Test-Path -Path .\VapourSynth\__pycache__ ) {
     Remove-Item -Path .\VapourSynth\__pycache__ -Recurse -Force
 }
 Move-Item -Path .\VapourSynth\sitecustomize.py -Destination .\VapourSynth\Lib\ -Force
-Move-Item -Path .\VapourSynth\vapoursynth.cp311-win_amd64.pyd -Destination .\VapourSynth\Lib\ -Force
+Move-Item -Path ".\VapourSynth\vapoursynth.$($Packages.python.abi)-win_amd64.pyd" -Destination .\VapourSynth\Lib\ -Force
 Copy-Item -Path .\downloads\vspreview\vapoursynth-preview-$($Packages.vspreview.branch)\vspreview -Destination .\VapourSynth\Lib\site-packages\ -Recurse -Force
 # Copy-Item -Path .\downloads\VSRepoGUI\VSRepoGUI.exe -Destination .\VapourSynth\ -Force
 Copy-Item -Path .\vsrepogui.json -Destination .\VapourSynth\ -Force
