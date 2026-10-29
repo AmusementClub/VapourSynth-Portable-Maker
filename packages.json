@@ -29,10 +29,10 @@
         "hash": "E4925631D4A7C356203AA7BC0B772F0D844AC42D88FA779FB33CA9E7CF7B34A2E22EE9FCE96D4678EADE9D749DA9AEF647E9F61FE00E9B361F6D31E2A0414139"
     },
     "vspreview": {
-        "name": "vapoursynth-preview-R57.A6.zip",
-        "url": "https://github.com/AmusementClub/vapoursynth-preview/archive/refs/tags/R57.A6.zip",
-        "branch": "R57.A6",
-        "hash": "DD5D2F5C5E7EA1C2D20AE975769B9AB8BBA1B5DF668DEAF0F973234E9E7BD9C3BBDCB190693C448C8029DF8A81E690E801352D60D3208C210C0AE5EF14054D58"
+        "name": "vapoursynth-preview-R57.A7.zip",
+        "url": "https://github.com/AmusementClub/vapoursynth-preview/archive/refs/tags/R57.A7.zip",
+        "branch": "R57.A7",
+        "hash": "4961D6123D3C94525B46CE83D70155DC79EA02F85CC37D3A46F68EB4954CDCE22188D5FBF2A2FF423C498F1F2F41E2549C3203893DCB0993FF3ECC1E19945F87"
     },
     "lexpr": {
         "name": "akarin-release-lexpr-amd64-v0.96g3.7z",
